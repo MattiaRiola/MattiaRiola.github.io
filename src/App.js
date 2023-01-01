@@ -12,7 +12,7 @@ import  Experience  from './pages/Experience';
 
 //COMPONENTS
 import PortfolioNavbar from './components/PortfolioNavbar'
-
+import Footer from './components/Footer'
 
 
 
@@ -27,6 +27,7 @@ function App() {
             <Route path="/projects" element={<Projects />} />
             <Route path="/experience" element={<Experience />} />
           </Routes>
+          <Footer/>
         </Router>
 
     </div>
