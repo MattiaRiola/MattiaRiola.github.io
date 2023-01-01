@@ -2,10 +2,11 @@ import React from 'react'
 import { LinkedIn, Email, GitHub } from '@material-ui/icons'
 import { Nav, Navbar, NavItem } from 'react-bootstrap'
 import Container from 'react-bootstrap/Container';
-import Card from 'react-bootstrap/Card';
+
+
 function Footer() {
     return (
-        <Navbar bg="secondary" variant="dark" fixed="bottom">
+        <Navbar  bg="secondary" variant="dark" sticky="bottom">
             <Container>
                 <Nav className="m-auto">
                     <NavItem>

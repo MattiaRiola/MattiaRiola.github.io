@@ -7,7 +7,7 @@ import {Link }from 'react-router-dom';
 function PortfolioNavbar() {
   return (
     <>
-        <Navbar bg="secondary" variant="dark">
+        <Navbar bg="primary" variant="primary">
           <Container mx-auto>
             <Navbar.Brand href="home">Navbar</Navbar.Brand>
             <Nav className="m-auto">

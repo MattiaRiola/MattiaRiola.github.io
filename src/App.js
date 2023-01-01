@@ -19,15 +19,18 @@ import Footer from './components/Footer'
 
 function App() {
   return (
-    <div className="App">
+    <div className="App" style={{ ["background-color"]: "#e1eff7" }}>
         <Router>
           <PortfolioNavbar />
           <Routes>
             <Route path="/" element={<Home />} />
+            <Route path="/home" element={<Home />} />
             <Route path="/projects" element={<Projects />} />
             <Route path="/experience" element={<Experience />} />
           </Routes>
-          <Footer/>
+          {
+          //  <Footer/>
+          }
         </Router>
 
     </div>
