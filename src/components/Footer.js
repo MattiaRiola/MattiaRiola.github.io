@@ -15,6 +15,7 @@ function Footer() {
                                 <Email />
                                 <GitHub />
                             </div>
+                            <p> &copy; 2022 mattiariola.github.com</p>
                         </div>
                     </NavItem>
                 </Nav>
