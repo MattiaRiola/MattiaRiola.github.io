@@ -2,7 +2,7 @@ import React from 'react'
 import Card from 'react-bootstrap/Card';
 function SkillCard(props) {
   return (
-    <Card bg="dark" >
+    <Card  className="shadow-lg p-3 mb-3 bg-dark rounded">
     <Card.Body>
       <Card.Title>{props.title}</Card.Title>
       <Card.Text>

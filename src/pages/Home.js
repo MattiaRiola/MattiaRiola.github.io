@@ -11,12 +11,12 @@ const skills = [
     description: "I have experience in developing Games as Game Designer, Level Designer and Game programmer using Unity (C#)"
   },
   {
-    title: "WebDeveloper (FE)",
-    description: "I have experience in developing web applications using React and Node.js; I also have experience in developing android mobile applciation using kotlin and firebase"
-  },
-  {
     title: "WebDeveloper (BE)",
     description: "I have experience in developing monolithic server and microservices using Java/Kotlin + Spring Framework and Golang"
+  },
+  {
+    title: "WebDeveloper (FE)",
+    description: "I have experience in developing web applications using React and Node.js; I also have experience in developing android mobile applciation using kotlin and firebase"
   },
   {
     title: "DevOps",
@@ -32,7 +32,7 @@ function Home() {
 
         <Row>
           <Col />
-          <Col xs={8} sm={3}>
+          <Col xs={9} sm={5}>
             <ProfileCard></ProfileCard>
           </Col>
           <Col />
@@ -49,13 +49,6 @@ function Home() {
             <Col />
           </Row>
         )}
-
-
-
-
-
-
-        
       </Container>
 
     </div>

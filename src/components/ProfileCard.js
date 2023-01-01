@@ -4,7 +4,7 @@ import Card from 'react-bootstrap/Card';
 
 function ProfileCard() {
   return (
-    <Card bg="secondary">
+    <Card className="shadow bg-secondary p-3 rounded">
     <Card.Img variant="left"src="https://avatars.githubusercontent.com/u/62254235?v=4" />
     <Card.Body>
       <Card.Title>Hi, I'm Mattia Riola</Card.Title>
