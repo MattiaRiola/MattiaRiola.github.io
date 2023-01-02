@@ -1,12 +1,15 @@
 
-$primary: #90caf9;
-$secondary: #afbdc4;
-$alternative-secondary: #8f8e95;
-$dark: #93a3ac;
-$light: #e1eff7;
-$success: #78a77b;
-$info: #4b475a;
-$warning: #ddab65;
-$danger: #e98a83;
+$primary:           #90caf9;
+$primaryLight:      #e6ffff;
+$primaryDark:       #82b3c9;
+$secondary:         #c5cae9;
+$secondaryLight:    #f8fdff;
+$secondaryDark:     #9499b7;
+$dark:              #93a3ac;
+$light:             #e1eff7;
+$success:           #78a77b;
+$info:              #4b475a;
+$warning:           #ddab65;
+$danger:            #e98a83;
 
 @import "~bootstrap/scss/bootstrap.scss";
