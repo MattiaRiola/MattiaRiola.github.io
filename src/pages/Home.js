@@ -1,9 +1,9 @@
 import React from 'react';
-import ProfileCard from '../components/ProfileCard';
+import ProfileCard from '../components/cards/ProfileCard';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import SkillCard from '../components/SkillCard';
+import SkillCard from '../components/cards/SkillCard';
 
 const skills = [
   {
