@@ -21,17 +21,19 @@ function ExperienceCard(props) {
       <div>
         <Container fluid>
           <Row>
-            <Col xs={4}>
-              <Image fluid={true} src={process.env.PUBLIC_URL + '/resources/icons/coding.gif'}>
+            <Col xs={4} className="my-auto">
+              <Image fluid={true} src={process.env.PUBLIC_URL + '/resources/icons/'+experience.experienceImg}>
               </Image>
             </Col>
-            <Col xs={8}>
+            <Col xs={8} className="my-auto">
               <h3 className="vertical-timeline-element-title">{experience.title}</h3>
-              <h2 className="vertical-timeline-element-subtitle">{experience.company} </h2>
-              <p className="vertical-timeline-element-description">{experience.description}</p>
+              <h5 className="vertical-timeline-element-subtitle" style={{ color: 'grey' }}>{experience.company} </h5>
             </Col>
           </Row>
           <Row>
+            <Col>
+              <p className="vertical-timeline-element-description">{experience.description}</p>
+            </Col>
           </Row>
         </Container>
       </div>
