@@ -3,9 +3,6 @@ import { LinkedIn, Email, GitHub } from '@material-ui/icons'
 import { Nav, Navbar, NavItem} from 'react-bootstrap'
 import {Link }from 'react-router-dom';
 
-import Container from 'react-bootstrap/Container';
-
-
 function Footer() {
     return (
         <Navbar  bg="dark"variant="dark" sticky="bottom">
@@ -18,8 +15,8 @@ function Footer() {
                                 <GitHub />
                                 <text>   </text>
                                 <Link  style={{color: 'black'}} to={"/credits"} >  credits</Link>
+                                <text> &copy; 2022 mattiariola.github.com</text>
                             </div>
-                            <p> &copy; 2022 mattiariola.github.com</p>
                         </div>
                     </NavItem>
                 </Nav>
