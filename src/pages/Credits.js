@@ -38,6 +38,11 @@ const credits = [
     description: "Eco battery animated icons created by Freepik - Flaticon"
   },
   {
+    icon: "loop",
+    website: "https://www.flaticon.com/free-animated-icons/loop",
+    description: "Loop animated icons created by Freepik - Flaticon"
+  },
+  {
     icon: "open-book",
     website: "https://www.flaticon.com/free-animated-icons/open-book",
     description: "Open book animated icons created by Freepik - Flaticon"
