@@ -12,7 +12,7 @@ function CreditCard(props) {
       <Container>
         <Row>
           <Col>
-            <Card.Img sm={4} md={2} className="my-auto d-none d-sm-block"
+            <Card.Img sm={4} md={2} className="my-auto"
               variant="top"
               src={process.env.PUBLIC_URL + '/resources/icons/' + credit.icon}
             />
