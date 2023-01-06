@@ -12,6 +12,9 @@ const colors = {
     danger:         '#e98a83',
     light:          '#e1eff7',
     dark:           '#93a3ac',
+    black:          '#000000',
+    white:          '#ffffff',
+    grey:           '#666666',
 }
 
 export default colors;

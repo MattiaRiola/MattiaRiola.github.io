@@ -4,7 +4,7 @@ const skills = [
       title: "Game Developer",
       description: "I have experience in developing Games as Game Designer, Level Designer and Game programmer using Unity (C#)",
       icon: "arcade.gif",
-      languages: ["C#", "Unity", "GameDesign principles", "LevelDesign principles", "Gameplay programming"],
+      languages: ["C#", "Unity", "Game Design", "Level Design", "Game programming"],
       projects: [
         {title: "But They Are Cats",url:"https://thefellowshipofthebox.itch.io/but-they-are-cats"},
         //{title: "Space Shooter",url:"https://github.com/MattiaRiola/Space-Shooter-Pro"},
@@ -14,7 +14,7 @@ const skills = [
       title: "Web Developer (BE)",
       description: "I have experience in developing monolithic server and microservices using Java/Kotlin + Spring Framework and Golang",
       icon: "server.gif",
-      languages: ["Java", "Kotlin", "Spring", "Golang","C++","js express","SQL","MongoDB","maven","gradle"],
+      languages: ["Java", "Kotlin", "Spring", "Golang","C++","js express","SQL","MongoDB","kafka","maven","gradle"],
       projects: [
         {title: "Public transportation manager",url:"https://github.com/A-short-name/Public-Transportation-Manager"},
         {title: "SPG",url:"https://github.com/SE2-GROUP-P12/SPG"},
@@ -45,7 +45,7 @@ const skills = [
     {
       title: "DevOps",
       description: "I have experience in developing CI/CD pipelines using Gitlab CI, docker and docker-compose",
-      languages: ["Gitlab CI", "docker", "docker-compose"],
+      languages: ["Gitlab CI", "Github actions","docker", "docker-compose", "sonarcloud", "shell scripting"],
       icon: "loop.gif",
       projects: [
   
