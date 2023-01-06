@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 
 function Footer() {
     return (
-        <Navbar bg="dark" variant="dark" sticky="bottom">
+        <Navbar bg="dark" variant="dark">
             <Nav className="m-auto">
                 <NavItem>
                     <LinkedIn />
