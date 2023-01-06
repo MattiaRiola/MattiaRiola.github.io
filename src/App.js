@@ -9,6 +9,7 @@ import {BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import  Home  from './pages/Home';
 import  Projects  from './pages/Projects';
 import  Experience  from './pages/Experience';
+import  Credits  from './pages/Credits';
 
 //COMPONENTS
 import PortfolioNavbar from './components/PortfolioNavbar'
@@ -26,10 +27,9 @@ function App() {
             <Route path="/home" element={<Home key="home"/>} />
             <Route path="/projects" element={<Projects />} />
             <Route path="/experience" element={<Experience />} />
+            <Route path="/credits" element={<Credits />} />
           </Routes>
-          {
           <Footer/>
-          }
         </Router>
   );
 }
