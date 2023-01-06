@@ -7,7 +7,7 @@ function ProfileCard() {
     <Card className="shadow bg-secondary p-3 rounded" key="innerProfileCard">
     <Card.Img 
       variant="top"
-      src="https://avatars.githubusercontent.com/u/62254235?v=4"  
+      src={process.env.PUBLIC_URL + '/resources/icons/Mattia-laptop.png'}  
     />
     <Card.Body>
       <Card.Title>Hi, I'm Mattia Riola</Card.Title>

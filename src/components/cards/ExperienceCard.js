@@ -23,8 +23,9 @@ function ExperienceCard(props) {
         <Container fluid>
           <Row>
             <Col xs={4} className="my-auto">
-              <Image fluid={true} src={process.env.PUBLIC_URL + '/resources/icons/'+experience.experienceImg}>
-              </Image>
+              <Image fluid={true} 
+                src={process.env.PUBLIC_URL + '/resources/icons/'+experience.experienceImg}
+              />
             </Col>
             <Col xs={8} className="my-auto">
               <h3 className="vertical-timeline-element-title">{experience.title}</h3>
