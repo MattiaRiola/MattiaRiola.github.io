@@ -15,21 +15,21 @@ function Footer() {
     return (
         <Navbar bg="dark" variant="dark">
             <Nav className="m-auto">
-                <Navbar.Brand href={links.linkedin}>
+                <Navbar.Brand href={links.linkedin} className='mx-1 my-auto'>
                         <LinkedIn/>
                 </Navbar.Brand>
                 
-                <Navbar.Brand href={links.email}>
+                <Navbar.Brand href={links.email} className='mx-1 my-auto'>
                         <Email/>
                 </Navbar.Brand>
                 
-                <Navbar.Brand href={links.github}>
+                <Navbar.Brand href={links.github} className='mx-1 my-auto'>
                         <GitHub/>
                 </Navbar.Brand>
-                <NavItem className='ms-3 my-auto'>
+                <NavItem className='mx-2 my-auto'>
                     <small> &copy; 2022 mattiariola.github.com</small>
                 </NavItem>
-                <NavItem className='ms-3 my-auto'>
+                <NavItem className='mx-2 my-auto'>
                     <Link style={{ color: 'black' }} to={"/credits"} >  credits</Link>
                 </NavItem>
             </Nav>
