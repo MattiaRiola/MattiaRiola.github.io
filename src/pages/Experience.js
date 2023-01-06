@@ -50,7 +50,7 @@ const experiences = [
     experienceImg: "chip.gif",
   },
   {
-    title: "Electronic/Energetic Technician",
+    title: "Electronic / Energetic Technician",
     company: "Sunload S.r.l.",
     date: "09/2013 - 09/2013",
     description: "EU4GEA project: installation and production of photovoltaic panels and electric batteries for smartphones",
