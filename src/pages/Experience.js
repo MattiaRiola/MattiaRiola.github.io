@@ -12,7 +12,7 @@ function Experience() {
     <Container>
       <Row>
         <Col className="mb-3">
-          <h1>Projects</h1>
+          <h1>Experiences</h1>
         </Col>
       </Row>
       <Row>
