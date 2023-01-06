@@ -1,7 +1,7 @@
 import React from 'react'
 import { GitHub, Email, LinkedIn } from '@material-ui/icons';
 import Card from 'react-bootstrap/Card';
-import links from '../../data/PersonalData';
+import links from '../../data/LinksData';
 
 
 

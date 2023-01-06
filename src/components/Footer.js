@@ -2,7 +2,7 @@ import React from 'react'
 import { LinkedIn, Email, GitHub } from '@material-ui/icons'
 import { Nav, Navbar, NavItem } from 'react-bootstrap'
 import { Link } from 'react-router-dom';
-import  links  from '../data/PersonalData'
+import links  from '../data/LinksData'
 
 
 // const links = {
