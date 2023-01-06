@@ -4,7 +4,6 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import { Chip } from '@material-ui/core';
-import Button from 'react-bootstrap/Button';
 import colors from '../../styles/Colors';
 
 
@@ -35,12 +34,17 @@ function ProjectCard(props) {
                             />
                         </Col>
                         <Col sm={9} md={9} className="my-auto">
-                            <Card.Text>
+                            <Card.Subtitle>
                                 {project.description}
+                            </Card.Subtitle>
+                            <Card.Text>
+                                {"goal: "+project.objectives}
                             </Card.Text>
-                            <a style={{ color: colors.grey }} href={project.url} title={project.title}>
-                                more information
-                            </a>
+                            {project.url ? 
+                                <a style={{ color: colors.grey }} href={project.url} title={project.title}>
+                                    more information
+                                </a> : <></>
+                            }
                             <Col>
                                 <LanguageChips languages={languages} />
                             </Col>

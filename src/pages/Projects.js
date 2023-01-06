@@ -10,13 +10,8 @@ function Projects() {
   return (
     <Container>
       <Row>
-        <Col>
+        <Col className="mb-3">
           <h1>Projects</h1>
-        </Col>
-      </Row>
-      <Row>
-        <Col>
-          <p>Here are some of my projects:</p>
         </Col>
       </Row>
       <Row>
