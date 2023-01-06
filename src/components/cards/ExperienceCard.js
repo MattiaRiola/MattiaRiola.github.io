@@ -11,6 +11,7 @@ function ExperienceCard(props) {
   var experience = props.experience;
   return (
     <VerticalTimelineElement
+      key={experience.title}
       contentStyle={{ background: colors.secondary, color: 'black' }}
       contentArrowStyle={{ borderRight: '7px solid' + colors.secondary }}
       date={experience.date}

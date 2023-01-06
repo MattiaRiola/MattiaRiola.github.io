@@ -62,12 +62,11 @@ const skills = [
 
 function Home() {
   return (
-    <div className="home">
       <Container>
 
         <Row>
           <Col xs={9} sm={5} className='mx-auto'>
-            <ProfileCard></ProfileCard>
+            <ProfileCard key="profileCard"></ProfileCard>
           </Col>
         </Row>
         <Row className='m-4'>
@@ -79,8 +78,6 @@ function Home() {
         {skillSection()}
         
       </Container>
-
-    </div>
   )
 }
 
@@ -90,7 +87,7 @@ function skillSection(){
     skills.map(skill =>
     <Row className='m-3'>
       <Col className='mx-auto m-1'>
-        <SkillCard skill={skill}>
+        <SkillCard skill={skill} key={"card"+skill.title}>
         </SkillCard>
       </Col>
     </Row>

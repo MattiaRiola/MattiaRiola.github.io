@@ -10,7 +10,7 @@ function SkillCard(props) {
   const skill = props.skill;
   const languages = props.skill.languages;
   return (
-    <Card className="shadow-lg p-3 mb-3 bg-secondary rounded">
+    <Card className="shadow-lg p-3 mb-3 bg-secondary rounded" key={skill.title}>
       <Card.Header>
         <h2>{skill.title}</h2>
       </Card.Header>
@@ -42,7 +42,7 @@ function LanguageChips(props){
   return(
     <div>
       {languages.map((language) => (
-        <Chip label={language}  
+        <Chip label={language} key={language}  
           style={{margin: "5px"}}
         />
       ))}
