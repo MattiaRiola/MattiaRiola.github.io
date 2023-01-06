@@ -86,6 +86,21 @@ const credits = [
       website: "https://www.flaticon.com/free-animated-icons/work-list",
       description: "Work list animated icons created by Freepik - Flaticon"
     },
+    {
+      icon: "server.png",
+      website: "https://www.flaticon.com/free-icons/server",
+      description: "Server icons created by Freepik - Flaticon"
+    },
+    {
+      icon: "backup.png",
+      website: "https://www.flaticon.com/free-icons/backup",
+      description: "Backup icons created by Smashicons - Flaticon"
+    },
+    {
+      icon: "analytics.png",
+      website: "https://www.flaticon.com/free-icons/analytics",
+      description: "Analytics icons created by Freepik - Flaticon"
+    }
   ]
 
 export default credits
