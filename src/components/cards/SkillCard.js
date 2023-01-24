@@ -4,6 +4,7 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import { Chip } from '@material-ui/core';
+import colors from '../../styles/Colors';
 
 function SkillCard(props) {
 
@@ -43,7 +44,7 @@ function LanguageChips(props){
     <div>
       {languages.map((language) => (
         <Chip label={language} key={language}  
-          style={{margin: "5px"}}
+          style={{margin: "5px", backgroundColor: colors.secondaryLight}}
         />
       ))}
     </div>

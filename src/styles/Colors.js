@@ -4,7 +4,7 @@ const colors = {
     primaryLight:   '#e6ffff',
     primaryDark:    '#82b3c9',
     secondary:      '#c5cae9',
-    secondaryLight: '#f8fdff',
+    secondaryLight: '#ced5f8',
     secondaryDark:  '#9499b7',
     success:        '#198754',
     info:           '#4b475a',

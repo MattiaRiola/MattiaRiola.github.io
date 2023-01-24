@@ -63,7 +63,7 @@ function LanguageChips(props) {
         <div>
             {languages.map((language) => (
                 <Chip label={language} key={language}
-                    style={{ margin: "5px", color: colors.grey, backgroundColor: colors.light }}
+                    style={{ margin: "5px", color: colors.grey, backgroundColor: colors.secondaryLight }}
                     color={colors.secondary}
                 />
             ))}
