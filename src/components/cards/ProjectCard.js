@@ -37,17 +37,20 @@ function ProjectCard(props) {
                             <Card.Subtitle>
                                 {project.description}
                             </Card.Subtitle>
+                            <br />
                             <Card.Text>
-                                {"goal: "+project.objectives}
+                                {"Goal: "+project.objectives}
                             </Card.Text>
+                            <br />
+                            <br />
                             {project.url ? 
                                 <a style={{ color: colors.grey }} href={project.url} title={project.title}>
                                     more information
                                 </a> : <></>
                             }
-                            <Col>
-                                <LanguageChips languages={languages} />
-                            </Col>
+
+                            <LanguageChips languages={languages} />
+                            
                         </Col>
                     </Row>
                 </Container>
