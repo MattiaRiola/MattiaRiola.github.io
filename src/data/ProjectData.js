@@ -6,7 +6,7 @@ const projects = [
       objectives: "Project made for Global Game Jam 2023. Theme was \"Roots\"",
       purpose: "personal",
       img: "Do-not-set-roots-logo.png",
-      languages: ["C#", "Unity", "Game Design", "Game programming", "GD doc"],
+      languages: ["C#", "Unity", "Game Design", "Game programming"],
       url:"https://thefellowshipofthebox.itch.io/do-not-set-roots",
     },
     {
@@ -15,7 +15,7 @@ const projects = [
       objectives: "Learn how to make a videogame from stat to the presentation of the prototype to publishers",
       purpose: "academic",
       img: "BTAC-logo.png",
-      languages: ["C#", "Unity", "Game Design", "Level Design", "Game programming", "GD doc", "SWOT analysis", "Pitch","Play testing"],
+      languages: ["C#", "Unity", "Game Design", "Level Design", "Game programming", "SWOT analysis", "Pitch","Play testing"],
       url:"https://thefellowshipofthebox.itch.io/but-they-are-cats",
     },
     {
