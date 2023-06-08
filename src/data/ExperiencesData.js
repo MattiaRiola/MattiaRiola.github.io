@@ -3,7 +3,7 @@ const experiences = [
       title: "Software developer",
       company: "AizoOn",
       date: "10/2020 - Present",
-      description: "Focus on Backend development in Java (Spring Framework using microservices approach) plus some devops activities like GitLab pipeline docker/docker-compose management",
+      description: "Focus on Backend development in Java (Spring Framework using microservices approach) plus some devops activities like GitLab pipeline Docker/Docker-compose management",
       location: "Turin, Italy",
       iconType: "work",
       experienceImg: "coding.gif",

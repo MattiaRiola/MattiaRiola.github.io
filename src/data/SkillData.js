@@ -44,7 +44,7 @@ const skills = [
     },
     {
       title: "DevOps",
-      description: "I have experience in developing CI/CD pipelines using Gitlab CI, docker and docker-compose",
+      description: "I have experience in developing CI/CD pipelines using Gitlab CI, Docker and Docker-compose",
       languages: ["Gitlab CI", "Github Workflow","Docker", "Docker-compose", "Sonarcloud", "Shell Scripting", "Bash", "Firebase"],
       icon: "loop.gif",
       projects: [

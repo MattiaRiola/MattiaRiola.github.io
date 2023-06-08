@@ -28,7 +28,7 @@ const projects = [
       url: "https://github.com/A-short-name/G01-Timebanking",
     },
     {
-      title: "Public transportation manager",
+      title: "Public Transportation Manager",
       description: "REST and Reactive server (with microservices architecture) for managing public transportation",
       objectives: "Learn Backend development with Kotlin and Spring framework",
       purpose: "academic",
@@ -37,8 +37,8 @@ const projects = [
       url:"https://github.com/A-short-name/Public-Transportation-Manager",
     },
     {
-      title: "SPG",
-      description: "web application (FE + BE) for managing solidarity purchase groups",
+      title: "SPG - Solidarity Purchased Group",
+      description: "Web application (FE + BE) for managing solidarity purchase groups",
       objectives: "Learn and use scrum agile methodology",
       purpose: "academic",
       img: "spg.png",
@@ -47,7 +47,7 @@ const projects = [
     },
     {
       title: "Office queue manager",
-      description: "web application (FE + BE) for managing office queues",
+      description: "Web application (FE + BE) for managing office queues",
       objectives: "Learn basic principle of scrum agile methodology",
       purpose: "academic",
       img: "office-queue-manager.png",
@@ -55,8 +55,8 @@ const projects = [
       url: "https://github.com/SE2-GROUP-P12/office-queue-management",
     },
     {
-      title: "ezgas",
-      description: "web application (BE) for managing gas stations prices",
+      title: "Ezgas",
+      description: "Web application (BE) for managing gas stations prices",
       objectives: "Learn and use versioning control software and waterfall methodology",
       purpose: "academic",
       img: "ezgas.png",
@@ -82,7 +82,7 @@ const projects = [
       url: "https://github.com/MattiaRiola/wa1_todo_dynamic",
     },
     {
-      title: "exam survey",
+      title: "Exam survey",
       description: "web application (FE + BE) for managing exams surveys",
       objectives: "This web application was made in 5 days to pass the web application exam",
       purpose: "academic",
@@ -91,7 +91,7 @@ const projects = [
       url: "https://github.com/MattiaRiola/WA1_exam_survey",
     },
     {
-      title: "Pizzeria due fratelli business analysis",
+      title: "Pizzeria due fratelli, business analysis",
       description: "analysis of a business information system",
       objectives: "Learn how to analyze a business information system and how to plan a possible improvement",
       purpose: "academic",
@@ -100,7 +100,7 @@ const projects = [
       url: "https://github.com/MattiaRiola/is-pizzeria-project",
     },
     {
-      title: "labyrinth game",
+      title: "Labyrinth game",
       description: "simple labyrinth game on ARM based board",
       objectives: "Learn how to wirte firmware and use of ARM-based boards",
       purpose: "academic",
