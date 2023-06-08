@@ -24,7 +24,7 @@ const projects = [
       objectives: "Learn mobile development with Kotlin and Firebase",
       purpose: "academic",
       img: "piggy-timebank.png",
-      languages: ["Kotlin", "Firebase","android studio"],
+      languages: ["Kotlin", "Firebase","Android Studio"],
       url: "https://github.com/A-short-name/G01-Timebanking",
     },
     {
@@ -33,7 +33,7 @@ const projects = [
       objectives: "Learn Backend development with Kotlin and Spring framework",
       purpose: "academic",
       img: "server.png",
-      languages: ["Kotlin", "Spring","postgres","kafka","gradle"],
+      languages: ["Kotlin", "Spring","Postgres","Kafka","Gradle"],
       url:"https://github.com/A-short-name/Public-Transportation-Manager",
     },
     {
@@ -42,7 +42,7 @@ const projects = [
       objectives: "Learn and use scrum agile methodology",
       purpose: "academic",
       img: "spg.png",
-      languages: ["Java","Spring","docker","docker-compose","mysql","maven","js","react-bootstrap","youtrack"],
+      languages: ["Java","Spring","Docker","Docker-compose","Cypress","Mysql","Maven","Js","React-bootstrap","Youtrack"],
       url:"https://github.com/SE2-GROUP-P12/SPG",
     },
     {
@@ -51,16 +51,16 @@ const projects = [
       objectives: "Learn basic principle of scrum agile methodology",
       purpose: "academic",
       img: "office-queue-manager.png",
-      languages: ["Java","Spring","mysql","maven","js","react-bootstrap","youtrack"],
+      languages: ["Java","Spring","Mysql","Maven","Js","React-bootstrap","Youtrack"],
       url: "https://github.com/SE2-GROUP-P12/office-queue-management",
     },
     {
       title: "ezgas",
       description: "web application (BE) for managing gas stations prices",
-      objectices: "Learn and use versioning control software and waterfall methodology",
+      objectives: "Learn and use versioning control software and waterfall methodology",
       purpose: "academic",
       img: "ezgas.png",
-      languages: ["Java","Spring","mysql","maven","js","react-bootstrap"],
+      languages: ["Java","Spring","Mysql","Maven","Js","React-bootstrap"],
       url: "https://github.com/MattiaRiola/ezgas",
     },
     {
@@ -69,7 +69,7 @@ const projects = [
       objectives: "Learn c++ and operating systems concepts",
       purpose: "academic",
       img: "backup.png",
-      languages: ["c++"],
+      languages: ["C++"],
       url: "https://github.com/MattiaRiola/PDS-M1-Project",
     },
     {
@@ -78,7 +78,7 @@ const projects = [
       objectives: "Learn how to develop a web application from scratch",
       purpose: "academic",
       img: "todo-manager.png",
-      languages: ["js","js express","react-bootstrap"],
+      languages: ["Js","Js express","React-bootstrap"],
       url: "https://github.com/MattiaRiola/wa1_todo_dynamic",
     },
     {
@@ -87,7 +87,7 @@ const projects = [
       objectives: "This web application was made in 5 days to pass the web application exam",
       purpose: "academic",
       img: "exam-survey.png",
-      languages: ["js","js express","react-bootstrap"],
+      languages: ["Js","Js express","React-bootstrap"],
       url: "https://github.com/MattiaRiola/WA1_exam_survey",
     },
     {
@@ -96,7 +96,7 @@ const projects = [
       objectives: "Learn how to analyze a business information system and how to plan a possible improvement",
       purpose: "academic",
       img: "analytics.png",
-      languages: ["business analysis"],
+      languages: ["Business Analysis"],
       url: "https://github.com/MattiaRiola/is-pizzeria-project",
     },
     {
@@ -105,7 +105,7 @@ const projects = [
       objectives: "Learn how to wirte firmware and use of ARM-based boards",
       purpose: "academic",
       img: "labyrinth-game.png",
-      languages: ["c","ARM"],
+      languages: ["C","ARM"],
     },
     {
       title: "Wimshurst machine",
@@ -113,7 +113,7 @@ const projects = [
       objectives: "Learn electrostatics phenomena and experiment with them",
       purpose: "hobby",
       img: "wimshurst-machine.png",
-      languages: ["physics"],
+      languages: ["Physics"],
     },
     {
       title: "Amplifier and cabled speaker",
@@ -121,7 +121,7 @@ const projects = [
       objectives: "Learn how to design and build an amplifier for a speaker",
       purpose: "academic",
       img: "speaker.png",
-      languages: ["electronics"],
+      languages: ["Electronics"],
     },
   ];
 
