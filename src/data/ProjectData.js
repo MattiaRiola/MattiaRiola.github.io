@@ -74,7 +74,7 @@ const projects = [
     },
     {
       title: "Todo Manager",
-      description: "simple web application (FE + BE) for managing TODO lists",
+      description: "Simple web application (FE + BE) for managing TODO lists",
       objectives: "Learn how to develop a web application from scratch",
       purpose: "academic",
       img: "todo-manager.png",
@@ -83,7 +83,7 @@ const projects = [
     },
     {
       title: "Exam survey",
-      description: "web application (FE + BE) for managing exams surveys",
+      description: "Web application (FE + BE) for managing exams surveys",
       objectives: "This web application was made in 5 days to pass the web application exam",
       purpose: "academic",
       img: "exam-survey.png",
@@ -92,7 +92,7 @@ const projects = [
     },
     {
       title: "Pizzeria due fratelli, business analysis",
-      description: "analysis of a business information system",
+      description: "Analysis of a business information system",
       objectives: "Learn how to analyze a business information system and how to plan a possible improvement",
       purpose: "academic",
       img: "analytics.png",
@@ -101,7 +101,7 @@ const projects = [
     },
     {
       title: "Labyrinth game",
-      description: "simple labyrinth game on ARM based board",
+      description: "Simple labyrinth game on ARM based board",
       objectives: "Learn how to wirte firmware and use of ARM-based boards",
       purpose: "academic",
       img: "labyrinth-game.png",
@@ -109,7 +109,7 @@ const projects = [
     },
     {
       title: "Wimshurst machine",
-      description: "Homemade whimshurt machine",
+      description: "Homemade Whimshurt machine",
       objectives: "Learn electrostatics phenomena and experiment with them",
       purpose: "hobby",
       img: "wimshurst-machine.png",
