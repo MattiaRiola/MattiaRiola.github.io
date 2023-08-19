@@ -33,7 +33,7 @@ const projects = [
       objectives: "Learn Backend development with Kotlin and Spring framework",
       purpose: "academic",
       img: "server.png",
-      languages: ["Kotlin", "Spring","Postgres","Kafka","Gradle"],
+      languages: ["Kotlin", "Spring","PostgreSQL","Kafka","Gradle"],
       url:"https://github.com/A-short-name/Public-Transportation-Manager",
     },
     {
