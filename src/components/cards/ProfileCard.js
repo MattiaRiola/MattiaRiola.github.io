@@ -15,7 +15,7 @@ function ProfileCard() {
       <Card.Body>
         <Card.Title>Hi, I'm Mattia Riola</Card.Title>
         <Card.Text>
-          A software engineer with a passion in learning and creating
+          A <b>software engineer</b> with a passion in learning and creating
         </Card.Text>
       </Card.Body>
       <Card.Footer>
