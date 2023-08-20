@@ -4,7 +4,7 @@ import './App.css';
 //LIBRARIES
 import 'bootstrap/dist/css/bootstrap.min.css';
 import {BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-
+import { useEffect } from 'react';
 //PAGES
 import  Home  from './pages/Home';
 import  Projects  from './pages/Projects';
@@ -19,6 +19,9 @@ import Footer from './components/Footer'
 
 
 function App() {
+  useEffect(() => {
+    document.body.style.backgroundColor = '#c7d4dc'; // Your chosen shade of light green
+  }, []);
   return (
         <Router>
           <PortfolioNavbar />
