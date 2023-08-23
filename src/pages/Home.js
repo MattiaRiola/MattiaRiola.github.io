@@ -13,13 +13,19 @@ function Home() {
       <Container>
 
         <Row style={{ marginBottom: '20px' }}>
-          
-            <Col xs={12} sm={12} lg={3} className='mx-auto'>
-              <ProfileCard key="profileCard"></ProfileCard>
-            </Col>
-            <Col xs={12} sm={12} lg={9} className='mx-auto my-auto stretch-content d-none d-lg-block'>
-              {toolSection()}
-            </Col>
+          <Card className="shadow-lg p-3 mb-3 bg-primary rounded d-none d-lg-block" key="ProfileSection">
+            <Row>
+              <Col xs={12} sm={12} lg={3} className='mx-auto'>
+                <ProfileCard key="profileCard"></ProfileCard>
+              </Col>
+              <Col xs={12} sm={12} lg={9} className='mx-auto my-auto stretch-content d-none d-lg-block'>
+                {toolSection()}
+              </Col>
+            </Row>
+          </Card>
+          <Col xs={12} sm={12} lg={3} className='mx-auto d-block d-lg-none'>
+            <ProfileCard key="profileCard"></ProfileCard>
+          </Col>
         </Row>
         <Row className='stretch-columns'>
           {skillSection()}
