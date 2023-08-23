@@ -10,7 +10,7 @@ function ProfileCard() {
     <Card className="shadow bg-secondary p-3 rounded align-items-stretch" key="innerProfileCard">
       
       <Card.Body>
-        <Card.Title>Hi, I'm Mattia Riola</Card.Title>
+        <Card.Title>Hi, I'm <span style={{fontSize: '24px'}}>Mattia Riola</span></Card.Title>
         <Card.Text>
           A <b>software engineer</b> with a passion in learning and creating
         </Card.Text>
