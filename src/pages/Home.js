@@ -5,25 +5,25 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import SkillCard from '../components/cards/SkillCard';
 import skills from '../data/SkillData';
+import rawHTMLFromMyGithubPage from '../data/ToolsFromGithubPage';
 import Card from 'react-bootstrap/Card';
 
 function Home() {
   return (
       <Container>
 
-        <Row>
-          <Col xs={9} sm={7} className='mx-auto'>
-            <ProfileCard key="profileCard"></ProfileCard>
-          </Col>
+        <Row style={{ marginBottom: '20px' }}>
+          
+            <Col xs={12} sm={12} lg={3} className='mx-auto'>
+              <ProfileCard key="profileCard"></ProfileCard>
+            </Col>
+            <Col xs={12} sm={12} lg={9} className='mx-auto my-auto stretch-content d-none d-lg-block'>
+              {toolSection()}
+            </Col>
         </Row>
-        <Row className='m-4'>
-          <Col>
-            {/* <h1>Skills:</h1> */}
-          </Col>
+        <Row className='stretch-columns'>
+          {skillSection()}
         </Row>
-
-        {skillSection()}
-        
       </Container>
   )
 }
@@ -40,11 +40,24 @@ function skillSection(){
       </Card.Header>
       <Row>
         {skills.map((skill) => (
-          <Col xs={12} sm={12} md={6} lg={6} xl={4} className='mx-auto d-flex align-items-stretch'>
+          <Col key={"ColSkill"+skill.id} xs={12} sm={12} md={6} lg={6} xl={4} className='mx-auto d-flex align-items-stretch'>
             <SkillCard key={skill.id} skill={skill}></SkillCard>
           </Col>
         ))}
       </Row>
+    </Card>
+  )
+}
+
+
+function toolSection(){
+
+  return (
+    <Card className="shadow bg-secondary p-3 rounded" key="SkillSection">
+      <Card.Header style={{ marginBottom: '20px' }}>
+        <h1>Technologies I know</h1>
+      </Card.Header>
+        <div dangerouslySetInnerHTML={{ __html: rawHTMLFromMyGithubPage }} />
     </Card>
   )
 }
