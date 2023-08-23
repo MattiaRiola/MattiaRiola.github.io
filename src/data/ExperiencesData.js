@@ -11,10 +11,11 @@ const experiences = [
     {
       title: "Master's Degree: Computer Engineering",
       company: "Polytechnic of Torino",
-      date: "03/2020 - Present",
+      date: "03/2020 - 07/2023",
       description: "Experience in software development and maintenance thanks to laboratories and projects",
       location: "Turin, Italy",
       iconType: "school",
+      grade: "106/110",
       experienceImg: "book.gif",
     },
     {
@@ -24,6 +25,7 @@ const experiences = [
       description: "General engineering education with in depth study of IT field",
       location: "Turin, Italy",
       iconType: "school",
+      grade: "86/110",
       experienceImg: "book.gif",
     },
     {
@@ -33,6 +35,7 @@ const experiences = [
       description: "Study of basic electronic components and telecommunication systems",
       location: "Rome, Italy",
       iconType: "school",
+      grade: "96/110",
       experienceImg: "open-book.gif",
     },
     {

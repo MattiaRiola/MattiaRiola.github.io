@@ -30,6 +30,7 @@ function ExperienceCard(props) {
             <Col xs={8} className="my-auto">
               <h3 className="vertical-timeline-element-title">{experience.title}</h3>
               <h5 className="vertical-timeline-element-subtitle" style={{ color: 'grey' }}>{experience.company} </h5>
+              {experience.grade && <h6>Grade: {experience.grade}</h6>} {/* Added line to display grade if present */}
             </Col>
           </Row>
           <Row>
