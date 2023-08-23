@@ -125,7 +125,7 @@ const projects = [
       description: "Simple labyrinth game on ARM based board",
       objectives: "Learn how to wirte firmware and use of ARM-based boards",
       purpose: "academic",
-      img: "labyrinth-game.png",
+      img: "ASELabyrinth.gif",
       teamSize: "3",
       languages: ["C","ARM"],
     },
