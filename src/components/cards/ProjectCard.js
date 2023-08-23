@@ -19,7 +19,7 @@ function ProjectCard(props) {
             <Card.Body>
                 <Container>
                     <Row xs={1} className="mx-auto">
-                        <Col className="my-auto mx-auto d-block d-sm-none">
+                        <Col className="my-auto mx-auto d-block d-lg-none">
                             <Card.Img 
                                 variant="top"
                                 src={process.env.PUBLIC_URL + '/resources/projects/' + project.img}
@@ -27,19 +27,31 @@ function ProjectCard(props) {
                         </Col>
                     </Row>
                     <Row className="my-2">
-                        <Col sm={3} md={3} my={2} className="my-auto d-none d-sm-block">
+                        <Col sm={4} md={4} className="my-auto d-none d-lg-block">
                             <Card.Img 
                                 variant="top"
                                 src={process.env.PUBLIC_URL + '/resources/projects/' + project.img}
                             />
                         </Col>
-                        <Col sm={9} md={9} className="my-auto">
-                            <Card.Subtitle>
-                                {project.description}
-                            </Card.Subtitle>
+                        <Col sm={8} md={8} className="my-auto">
+                            <br />
+                            <br />
                             <br />
                             <Card.Text>
-                                {"Goal: "+project.objectives}
+                                <ul>
+                                    <li>
+                                        {"📄 "+ project.description}
+                                    </li>
+                                    <li>
+                                        {"🎯 "+project.objectives}
+                                    </li>
+                                    <li>
+                                        {getPurposeEmoji(project.purpose) + " " + project.purpose}
+                                    </li>
+                                    <li>
+                                        {"👤".repeat(project.teamSize)}
+                                    </li>
+                                </ul>
                             </Card.Text>
                             <br />
                             <br />
@@ -48,22 +60,35 @@ function ProjectCard(props) {
                                     more information
                                 </a> : <></>
                             }
-
+                            <br />
+                            <br />
                             <LanguageChips languages={languages} />
                             
                         </Col>
                     </Row>
                 </Container>
-                <h3 className="my-auto d-none d-sm-block"></h3>
             </Card.Body>
         </Card>
     )
 }
 
+function getPurposeEmoji(purpose) {
+    switch (purpose) {
+      case 'academic':
+        return '🎓';
+      case 'personal':
+        return '❤️';
+      case 'job':
+        return '💼';
+      default:
+        return '';
+    }
+  }
+
 function LanguageChips(props) {
     const languages = props.languages;
     return (
-        <div>
+        <div style={{display: "flex", flexWrap: "wrap"}}>
             {languages.map((language) => (
                 <Chip label={language} key={language}
                     style={{ margin: "5px", color: colors.grey, backgroundColor: colors.secondaryLight }}
