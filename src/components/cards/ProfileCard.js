@@ -2,7 +2,7 @@ import React from 'react'
 import { GitHub, Email, LinkedIn } from '@material-ui/icons';
 import Card from 'react-bootstrap/Card';
 import links from '../../data/LinksData';
-import rawHTMLFromMyGithubPage from '../../data/ToolsFromGithubPage';
+import rawHTMLFromMyGithubPageSmall from '../../data/ToolsFromGithubPageSmall';
 
 
 function ProfileCard() {
@@ -19,7 +19,7 @@ function ProfileCard() {
         src={process.env.PUBLIC_URL + '/resources/icons/Mattia-laptop.png'}
         />
         <Card.Text className="d-block d-lg-none">
-          <div dangerouslySetInnerHTML={{ __html: rawHTMLFromMyGithubPage }} />
+          <div dangerouslySetInnerHTML={{ __html: rawHTMLFromMyGithubPageSmall }} />
         </Card.Text>
       </Card.Body>
       <Card.Footer>

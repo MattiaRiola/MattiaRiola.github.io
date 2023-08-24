@@ -5,7 +5,7 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import SkillCard from '../components/cards/SkillCard';
 import skills from '../data/SkillData';
-import rawHTMLFromMyGithubPage from '../data/ToolsFromGithubPage';
+import rawHTMLFromMyGithubPageSmall from '../data/ToolsFromGithubPageSmall';
 import Card from 'react-bootstrap/Card';
 
 function Home() {
@@ -63,7 +63,7 @@ function toolSection(){
       <Card.Header style={{ marginBottom: '20px' }}>
         <h1>Technologies I know</h1>
       </Card.Header>
-        <div dangerouslySetInnerHTML={{ __html: rawHTMLFromMyGithubPage }} />
+        <div dangerouslySetInnerHTML={{ __html: rawHTMLFromMyGithubPageSmall }} />
     </Card>
   )
 }
