@@ -22,7 +22,7 @@ const projects = [
   {
     title: "But They Are Cats",
     description: "Prototype of a tower defense game with cats.",
-    objectives: "Learn how to make a video game from start to the presentation of the prototype to publishers.",
+    objectives: "Learn how to make a video game from start to the presentation of the prototype and the pitch document to publishers.",
     purpose: "academic",
     img: "but-they-are-cats.gif",
     teamSize: "4",
@@ -46,7 +46,7 @@ const projects = [
     purpose: "academic",
     img: "server.png",
     teamSize: "4",
-    languages: ["Kotlin", "Spring", "PostgreSQL", "Kafka", "Gradle"],
+    languages: ["Kotlin", "Spring", "PostgreSQL", "Kafka", "Gradle", "Microservices","Docker","Docker-compose"],
     url: "https://github.com/A-short-name/Public-Transportation-Manager",
   },
   {
@@ -56,7 +56,7 @@ const projects = [
     purpose: "academic",
     img: "spg.gif",
     teamSize: "5",
-    languages: ["Java", "Spring", "SonarCloud","Docker", "Docker-compose", "Cypress", "MySQL", "Maven", "Js", "React-bootstrap", "YouTrack"],
+    languages: ["Java", "Spring", "SonarCloud","Docker", "Docker-compose", "Cypress", "MySQL", "Maven", "Js", "React-bootstrap", "YouTrack", "Agile"],
     url: "https://github.com/SE2-GROUP-P12/SPG",
   },
   {
@@ -66,7 +66,7 @@ const projects = [
     purpose: "academic",
     img: "office-queue-manager.png",
     teamSize: "5",
-    languages: ["Java", "Spring", "MySQL", "Maven", "Js", "React-bootstrap", "YouTrack"],
+    languages: ["Java", "Spring", "MySQL", "Maven", "Js", "React-bootstrap", "YouTrack", "Agile"],
     url: "https://github.com/SE2-GROUP-P12/office-queue-management",
   },
   {
@@ -104,7 +104,7 @@ const projects = [
     description: "Web application (FE + BE) for managing exam surveys.",
     objectives: "This web application was made in 5 days to pass the web application exam.",
     purpose: "academic",
-    img: "exam-survey.png",
+    img: "survey.gif",
     teamSize: "1",
     languages: ["Js", "Js Express", "React-bootstrap"],
     url: "https://github.com/MattiaRiola/WA1_exam_survey",
