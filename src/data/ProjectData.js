@@ -56,7 +56,7 @@ const projects = [
     purpose: "academic",
     img: "spg.gif",
     teamSize: "5",
-    languages: ["Java", "Spring", "Docker", "Docker-compose", "Cypress", "MySQL", "Maven", "Js", "React-bootstrap", "YouTrack"],
+    languages: ["Java", "Spring", "SonarCloud","Docker", "Docker-compose", "Cypress", "MySQL", "Maven", "Js", "React-bootstrap", "YouTrack"],
     url: "https://github.com/SE2-GROUP-P12/SPG",
   },
   {
