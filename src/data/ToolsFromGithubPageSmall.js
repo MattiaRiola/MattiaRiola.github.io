@@ -73,8 +73,8 @@ const rawHTMLFromMyGithubPageSmall = `
         <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-original.svg" alt="bootstrap" width="40" height="40"/>
         <figcaption style='color: black' align="center">bootstrap</figcaption> 
         </a>
-        <a align="center" style='margin-left:1em; margin-bottom:1em' href="https://react-bootstrap.netlify.app/" target="_blank" rel="external"> 
-        <img src="https://react-bootstrap.netlify.app/img/logo.svg" alt="reactbootstrap" width="40" height="40"/>
+        <a align="center" style='margin-left:1em; margin-bottom:1em' href="https://react.dev/" target="_blank" rel="external"> 
+        <img src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" alt="react" width="40" height="40"/>
         <figcaption style='color: black' align="center">react</figcaption> 
         </a>
         <a align="center" style='margin-left:1em; margin-bottom:1em' href="https://expressjs.com/" target="_blank" rel="external"> 
