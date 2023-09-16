@@ -120,7 +120,7 @@ const projects = [
       "Configured and structured YouTrack for streamlined project management",
       "Focused on developing core functionalities and logic for user stories with higher priority",
     ],
-    duration: "1 months",
+    duration: "1 month",
     languages: ["Java", "Spring", "MySQL", "Maven", "Js", "React-bootstrap", "YouTrack", "Agile"],
     url: "https://github.com/SE2-GROUP-P12/office-queue-management",
   },
