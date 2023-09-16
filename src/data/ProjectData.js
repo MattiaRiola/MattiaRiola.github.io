@@ -1,16 +1,16 @@
 const projects = [
   {
     title: "Thesis on Game Test Automation",
-    description: "Literature review and sound testing implementation.",
-    objectives: "Study the state of the art of game testing automation, identify gaps in the literature, and implement sound testing features; integrate them into the iv4XR framework.",
+    description: "Literature review and sound testing implementation",
+    objectives: "Study the state of the art of game testing automation, identify gaps in the literature, and implement sound testing features; integrate them into the iv4XR framework",
     purpose: "academic",
     responsibilities: [
-      "Perform a multivocal literature review about the state of the art of testing in video games.",
-      "Improve existing taxonomy of video game testing.",
-      "Identify gaps in the literature.",
-      "Study of testing frameworks and tools available.",
-      "Implement a sound analyser and recognition tool.",
-      "Implement a sound testing module integrating the sound analyser I develped in iv4XR framework."
+      "Perform a multivocal literature review about the state of the art of testing in video games",
+      "Improve existing taxonomy of video game testing",
+      "Identify gaps in the literature",
+      "Study of testing frameworks and tools available",
+      "Implement a sound analyser and recognition tool",
+      "Implement a sound testing module integrating the sound analyser I develped in iv4XR framework"
     ],
     duration: "6 months",
     img: "labrecruits.gif",
@@ -20,15 +20,15 @@ const projects = [
   },
   {
     title: "Do Not Set Roots",
-    description: "2D platform browser game prototype.",
-    objectives: "Project made for Global Game Jam 2023. The theme was \"Roots\".",
+    description: "2D platform browser game prototype",
+    objectives: "Project made for Global Game Jam 2023. The theme was \"Roots\"",
     purpose: "personal",
     img: "DNSR.gif",
     teamSize: "3",
     responsibilities: [
-      "Prototyping and Designing the game concept and mechanics based on a specific theme.",
-      "The game balancement varying physics parameters such as the speed of the game-objects and the size of their colliders.",
-      "Managing and monitoring tasks and features."
+      "Prototyping and Designing the game concept and mechanics based on a specific theme",
+      "The game balancement varying physics parameters such as the speed of the game-objects and the size of their colliders",
+      "Managing and monitoring tasks and features"
 
     ],
     duration: "48 hours",
@@ -37,20 +37,20 @@ const projects = [
   },
   {
     title: "But They Are Cats",
-    description: "Prototype of a tower defense game with cats.",
-    objectives: "Learn how to make a video game from start to the presentation of the prototype and the pitch document to publishers.",
+    description: "Prototype of a tower defense game with cats",
+    objectives: "Learn how to make a video game from start to the presentation of the prototype and the pitch document to publishers",
     purpose: "academic",
     img: "but-they-are-cats.gif",
     teamSize: "4",
     responsibilities: [
-      "Developed and prototyped the game concept.",
-      "Managed the navigation system in the levels.",
-      "Created the core mechanics for each character.",
-      "Integrated sound using free assets found online.",
-      "Designed and Balanced game's levels and tutorial.",
-      "Evaluated the project's budget and timeline.",
-      "Conducted quality control through a playtesting approach.",
-      "Wrote the Game Design Document and Pitch Document."
+      "Developed and prototyped the game concept",
+      "Managed the navigation system in the levels",
+      "Created the core mechanics for each character",
+      "Integrated sound using free assets found online",
+      "Designed and Balanced game's levels and tutorial",
+      "Evaluated the project's budget and timeline",
+      "Conducted quality control through a playtesting approach",
+      "Wrote the Game Design Document and Pitch Document"
     ],
     duration: "6 months",
     languages: ["C#", "Unity", "Game Design", "Level Design", "Game Programming", "SWOT Analysis", "Pitch", "Play Testing"],
@@ -58,15 +58,15 @@ const projects = [
   },
   {
     title: "Piggy Timebank",
-    description: "Android mobile application about time banking. It was made for a Mobile Development course.",
-    objectives: "Learn mobile development with Kotlin and Firebase.",
+    description: "Android mobile application about time banking",
+    objectives: "Learn mobile development with Kotlin and Firebase",
     purpose: "academic",
     img: "MAD-PiggyTimeBank.gif",
     teamSize: "4",
     responsibilities: [
-      "Designed user-friendly UI/UX with a human-centered approach.",
-      "Developed core application functionalities and logic.",
-      "Integrated Firebase for backend services."
+      "Designed user-friendly UI/UX with a human-centered approach",
+      "Developed core application functionalities and logic",
+      "Integrated Firebase for backend services"
     ],
     duration: "6 months",
     languages: ["Kotlin", "Firebase", "Android Studio"],
@@ -74,17 +74,17 @@ const projects = [
   },
   {
     title: "Public Transportation Manager",
-    description: "REST and Reactive BE system for managing public transportation.",
-    objectives: "Gain expertise in backend development with Kotlin and the Spring framework, as well as to understand the advantages of microservices architecture.",
+    description: "REST and Reactive BE system for managing public transportation",
+    objectives: "Gain expertise in backend development with Kotlin and the Spring framework, as well as to understand the advantages of microservices architecture",
     purpose: "academic",
     img: "server.png",
     teamSize: "4",
     responsibilities: [
-      "Designed microservices-based architecture for the backend system.",
-      "Developed core functionalities and logic, including login, ticket validation, and ticket purchase.",
-      "Integrated databases and a message broker for seamless data flow.",
-      "Managed service dependencies and Docker images.",
-      "Conducted comprehensive testing with both unit and integration tests.",
+      "Designed microservices-based architecture for the backend system",
+      "Developed core functionalities and logic, including login, ticket validation, and ticket purchase",
+      "Integrated databases and a message broker for seamless data flow",
+      "Managed service dependencies and Docker images",
+      "Conducted comprehensive testing with both unit and integration tests",
     ],
     duration: "6 months",
     languages: ["Kotlin", "Spring", "PostgreSQL", "Kafka", "Gradle", "Microservices", "Docker", "Docker-compose"],
@@ -92,16 +92,16 @@ const projects = [
   },
   {
     title: "SPG - Solidarity Purchased Group",
-    description: "Web application (FE + BE) for managing solidarity purchase groups.",
-    objectives: "Gained practical experience in utilizing the Scrum agile methodology for project management.",
+    description: "Web application (FE + BE) for managing solidarity purchase groups",
+    objectives: "Gained practical experience in utilizing the Scrum agile methodology for project management",
     purpose: "academic",
     img: "spg.gif",
     teamSize: "5",
     responsibilities: [
-      "Designed and executed core back-end functionalities for the application.",
-      "Implemented DevOps practices, including configuring the CI/CD pipeline and integrating SonarCloud for code quality analysis.",
-      "Conducted thorough testing of the back-end components.",
-      "Performed end-to-end (E2E) testing using Cypress.",
+      "Designed and executed core back-end functionalities for the application",
+      "Implemented DevOps practices, including configuring the CI/CD pipeline and integrating SonarCloud for code quality analysis",
+      "Conducted thorough testing of the back-end components",
+      "Performed end-to-end (E2E) testing using Cypress",
 
     ],
     duration: "4 months",
@@ -110,15 +110,15 @@ const projects = [
   },
   {
     title: "Office Queue Manager",
-    description: "Web application (FE + BE) for managing office queues.",
-    objectives: "Learn the basic principles of the Scrum agile methodology.",
+    description: "Web application (FE + BE) for managing office queues",
+    objectives: "Learn the basic principles of the Scrum agile methodology",
     purpose: "academic",
     img: "office-queue-manager.png",
     teamSize: "5",
     responsibilities: [
-      "Orchestrated user stories, sprint backlog, and sprint planning to ensure efficient project progress.",
-      "Configured and structured YouTrack for streamlined project management.",
-      "Focused on developing core functionalities and logic for user stories with higher priority.",
+      "Orchestrated user stories, sprint backlog, and sprint planning to ensure efficient project progress",
+      "Configured and structured YouTrack for streamlined project management",
+      "Focused on developing core functionalities and logic for user stories with higher priority",
     ],
     duration: "1 months",
     languages: ["Java", "Spring", "MySQL", "Maven", "Js", "React-bootstrap", "YouTrack", "Agile"],
@@ -126,15 +126,15 @@ const projects = [
   },
   {
     title: "Ezgas",
-    description: "Web application (BE) for managing gas station prices.",
-    objectives: "Learn and use versioning control software and the Waterfall methodology.",
+    description: "Web application (BE) for managing gas station prices",
+    objectives: "Learn and use versioning control software and the Waterfall methodology",
     purpose: "academic",
     img: "ezgas.png",
     teamSize: "4",
     responsibilities: [
-      "Managed the version control using GitLab to track code changes and collaborate with team members.",
-      "Collaborated with stakeholders to gather, assess, and document project requirements to align the development process with user needs.",
-      "Generated comprehensive project documentation."
+      "Managed the version control using GitLab to track code changes and collaborate with team members",
+      "Collaborated with stakeholders to gather, assess, and document project requirements to align the development process with user needs",
+      "Generated comprehensive project documentation"
     ],
     duration: "6 months",
     languages: ["Java", "Spring", "MySQL", "Maven", "Js", "React-bootstrap"],
@@ -142,15 +142,15 @@ const projects = [
   },
   {
     title: "Remote Backup System",
-    description: "Application for managing remote backups.",
-    objectives: "Learn C++ and operating system concepts.",
+    description: "Application for managing remote backups",
+    objectives: "Learn C++ and operating system concepts",
     purpose: "academic",
     img: "backup.png",
     teamSize: "2",
     responsibilities: [
-      "Designed and implemented the application architecture.",
-      "Implemented the functionalities and logic.",
-      "Improved performances using multithread programming approach."
+      "Designed and implemented the application architecture",
+      "Implemented the functionalities and logic",
+      "Improved performances using multithread programming approach"
     ],
     duration: "3 months",
     languages: ["C++","Multithreading", "Operating Systems"],
@@ -158,13 +158,13 @@ const projects = [
   },
   {
     title: "Todo Manager",
-    description: "Simple web application (FE + BE) for managing TODO lists.",
-    objectives: "Learn how to develop a web application from scratch.",
+    description: "Simple web application (FE + BE) for managing TODO lists",
+    objectives: "Learn how to develop a web application from scratch",
     purpose: "academic",
     img: "todo-manager.png",
     teamSize: "3",
     responsibilities: [
-      "Implemented both FE and BE functionalities following given requirements."
+      "Implemented both FE and BE functionalities following given requirements"
     ],
     duration: "3 months",
     languages: ["Js", "Node.js", "Express", "React-bootstrap"],
@@ -172,13 +172,13 @@ const projects = [
   },
   {
     title: "Exam Survey",
-    description: "Web application (FE + BE) for managing exam surveys.",
-    objectives: "This web application was made in 5 days to pass the web application exam.",
+    description: "Web application (FE + BE) for managing exam surveys",
+    objectives: "This web application was made in 5 days to pass the web application exam",
     purpose: "academic",
     img: "survey.gif",
     teamSize: "1",
     responsibilities: [
-      "Implemented both FE and BE functionalities following given requirements."
+      "Implemented both FE and BE functionalities following given requirements"
     ],
     duration: "5 days",
     languages: ["Js", "Node.js","Express", "React-bootstrap"],
@@ -186,17 +186,17 @@ const projects = [
   },
   {
     title: "Pizzeria Due Fratelli, Business Analysis",
-    description: "Analysis of a business information system.",
-    objectives: "Learn how to analyze a business information system and how to plan possible improvements.",
+    description: "Analysis of a business information system",
+    objectives: "Learn how to analyze a business information system and how to plan possible improvements",
     purpose: "academic",
     img: "analytics.png",
     teamSize: "3",
     responsibilities: [
-      "Analyzed the business information system of a pizzeria.",
-      "Identified the main problems and possible improvements.",
-      "Designed a new information system for the pizzeria.",
-      "Evaluated the economic impact of the new information system.",
-      "Wrote a report about the analysis and the new information system."
+      "Analyzed the business information system of a pizzeria",
+      "Identified the main problems and possible improvements",
+      "Designed a new information system for the pizzeria",
+      "Evaluated the economic impact of the new information system",
+      "Wrote a report about the analysis and the new information system"
     ],
     duration: "1 month",
     languages: ["Business Analysis"],
@@ -204,42 +204,42 @@ const projects = [
   },
   {
     title: "Labyrinth Game",
-    description: "Simple labyrinth game on ARM-based board.",
-    objectives: "Learn how to write firmware and use ARM-based boards.",
+    description: "Simple labyrinth game on ARM-based board",
+    objectives: "Learn how to write firmware and use ARM-based boards",
     purpose: "academic",
     img: "ASELabyrinth.gif",
     teamSize: "3",
     responsibilities: [
-      "Implemented the game logic.",
-      "Developed the firmware for the board."
+      "Implemented the game logic",
+      "Developed the firmware for the board"
     ],
     duration: "6 month",
     languages: ["C", "ARM"],
   },
   {
     title: "Wimshurst Machine",
-    description: "Homemade Wimshurst machine.",
-    objectives: "Learn about electrostatic phenomena and experiment with them.",
+    description: "Homemade Wimshurst machine",
+    objectives: "Learn about electrostatic phenomena and experiment with them",
     purpose: "hobby",
     img: "wimshurst-machine.png",
     teamSize: "1",
     responsibilities: [
-      "Designed and built the machine."
+      "Designed and built the machine"
     ],
     duration: "2 month",
     languages: ["Physics"],
   },
   {
     title: "Amplifier and Cabled Speaker",
-    description: "Homemade amplifier and cabled speaker.",
-    objectives: "Learn how to design and build an amplifier for a speaker.",
+    description: "Homemade amplifier and cabled speaker",
+    objectives: "Learn how to design and build an amplifier for a speaker",
     purpose: "academic",
     img: "speaker.png",
     teamSize: "1",
     responsibilities: [
-      "Dimensioned the components.",
-      "soldered the components on the PCB.",
-      "Built the box with the amplifier and the speaker.",
+      "Dimensioned the components of the amplifier",
+      "soldered the components on the PCB",
+      "Built the box with the amplifier and the speaker",
     ],
     duration: "1 month",
     languages: ["Electronics"],
