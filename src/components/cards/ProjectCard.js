@@ -37,8 +37,8 @@ function ProjectCard(props) {
                             <div>
                                 <br />
                                 <h5>{project.description}</h5>
-                                <p>🎯 {project.objectives}</p>
-                                <p>⏱️ {project.duration}</p>
+                                <p>🎯 Goal: {project.objectives}</p>
+                                <p>⏱️ Duration: {project.duration}</p>
                                 {project.responsibilities && Array.isArray(project.responsibilities) && (
                                 <details><summary>📋 Activities</summary>
                                     <ul>
