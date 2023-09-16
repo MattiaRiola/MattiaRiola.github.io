@@ -1,9 +1,18 @@
 const projects = [
   {
-    title: "Game Test Automation Thesis",
-    description: "Literature review and sound testing implementation using the iv4XR framework.",
+    title: "Thesis on Game Test Automation",
+    description: "Literature review and sound testing implementation.",
     objectives: "Study the state of the art of game testing automation, identify gaps in the literature, and implement sound testing features; integrate them into the iv4XR framework.",
     purpose: "academic",
+    responsibilities: [
+      "Perform a multivocal literature review about the state of the art of testing in video games.",
+      "Improve existing taxonomy of video game testing.",
+      "Identify gaps in the literature.",
+      "Study of testing frameworks and tools available.",
+      "Implement a sound analyser and recognition tool.",
+      "Implement a sound testing module integrating the sound analyser I develped in iv4XR framework."
+    ],
+    duration: "6 months",
     img: "labrecruits.gif",
     teamSize: "1",
     languages: ["C#", "Unity", "iv4XR", "Game Programming", "Java", "Python", "Zotero", "Latex", "MLR", "Notion", "Audio Analysis"],
@@ -16,6 +25,13 @@ const projects = [
     purpose: "personal",
     img: "DNSR.gif",
     teamSize: "3",
+    responsibilities: [
+      "Prototyping and Designing the game concept and mechanics based on a specific theme.",
+      "The game balancement varying physics parameters such as the speed of the game-objects and the size of their colliders.",
+      "Managing and monitoring tasks and features."
+
+    ],
+    duration: "48 hours",
     languages: ["C#", "Unity", "Game Design", "Game Programming"],
     url: "https://thefellowshipofthebox.itch.io/do-not-set-roots",
   },
@@ -26,6 +42,17 @@ const projects = [
     purpose: "academic",
     img: "but-they-are-cats.gif",
     teamSize: "4",
+    responsibilities: [
+      "Developed and prototyped the game concept.",
+      "Managed the navigation system in the levels.",
+      "Created the core mechanics for each character.",
+      "Integrated sound using free assets found online.",
+      "Designed and Balanced game's levels and tutorial.",
+      "Evaluated the project's budget and timeline.",
+      "Conducted quality control through a playtesting approach.",
+      "Wrote the Game Design Document and Pitch Document."
+    ],
+    duration: "6 months",
     languages: ["C#", "Unity", "Game Design", "Level Design", "Game Programming", "SWOT Analysis", "Pitch", "Play Testing"],
     url: "https://thefellowshipofthebox.itch.io/but-they-are-cats",
   },
@@ -36,27 +63,49 @@ const projects = [
     purpose: "academic",
     img: "MAD-PiggyTimeBank.gif",
     teamSize: "4",
+    responsibilities: [
+      "Designed user-friendly UI/UX with a human-centered approach.",
+      "Developed core application functionalities and logic.",
+      "Integrated Firebase for backend services."
+    ],
+    duration: "6 months",
     languages: ["Kotlin", "Firebase", "Android Studio"],
     url: "https://github.com/A-short-name/G01-Timebanking",
   },
   {
     title: "Public Transportation Manager",
-    description: "REST and Reactive server (with microservices architecture) for managing public transportation.",
-    objectives: "Learn Backend development with Kotlin and the Spring framework.",
+    description: "REST and Reactive BE system for managing public transportation.",
+    objectives: "Gain expertise in backend development with Kotlin and the Spring framework, as well as to understand the advantages of microservices architecture.",
     purpose: "academic",
     img: "server.png",
     teamSize: "4",
-    languages: ["Kotlin", "Spring", "PostgreSQL", "Kafka", "Gradle", "Microservices","Docker","Docker-compose"],
+    responsibilities: [
+      "Designed microservices-based architecture for the backend system.",
+      "Developed core functionalities and logic, including login, ticket validation, and ticket purchase.",
+      "Integrated databases and a message broker for seamless data flow.",
+      "Managed service dependencies and Docker images.",
+      "Conducted comprehensive testing with both unit and integration tests.",
+    ],
+    duration: "6 months",
+    languages: ["Kotlin", "Spring", "PostgreSQL", "Kafka", "Gradle", "Microservices", "Docker", "Docker-compose"],
     url: "https://github.com/A-short-name/Public-Transportation-Manager",
   },
   {
     title: "SPG - Solidarity Purchased Group",
     description: "Web application (FE + BE) for managing solidarity purchase groups.",
-    objectives: "Learn and use the Scrum agile methodology.",
+    objectives: "Gained practical experience in utilizing the Scrum agile methodology for project management.",
     purpose: "academic",
     img: "spg.gif",
     teamSize: "5",
-    languages: ["Java", "Spring", "SonarCloud","Docker", "Docker-compose", "Cypress", "MySQL", "Maven", "Js", "React-bootstrap", "YouTrack", "Agile"],
+    responsibilities: [
+      "Designed and executed core back-end functionalities for the application.",
+      "Implemented DevOps practices, including configuring the CI/CD pipeline and integrating SonarCloud for code quality analysis.",
+      "Conducted thorough testing of the back-end components.",
+      "Performed end-to-end (E2E) testing using Cypress.",
+
+    ],
+    duration: "4 months",
+    languages: ["Java", "Spring", "SonarCloud", "Docker", "Docker-compose", "Cypress", "MySQL", "Maven", "Js", "React-bootstrap", "YouTrack", "Agile"],
     url: "https://github.com/SE2-GROUP-P12/SPG",
   },
   {
@@ -66,6 +115,12 @@ const projects = [
     purpose: "academic",
     img: "office-queue-manager.png",
     teamSize: "5",
+    responsibilities: [
+      "Orchestrated user stories, sprint backlog, and sprint planning to ensure efficient project progress.",
+      "Configured and structured YouTrack for streamlined project management.",
+      "Focused on developing core functionalities and logic for user stories with higher priority.",
+    ],
+    duration: "1 months",
     languages: ["Java", "Spring", "MySQL", "Maven", "Js", "React-bootstrap", "YouTrack", "Agile"],
     url: "https://github.com/SE2-GROUP-P12/office-queue-management",
   },
@@ -76,6 +131,12 @@ const projects = [
     purpose: "academic",
     img: "ezgas.png",
     teamSize: "4",
+    responsibilities: [
+      "Managed the version control using GitLab to track code changes and collaborate with team members.",
+      "Collaborated with stakeholders to gather, assess, and document project requirements to align the development process with user needs.",
+      "Generated comprehensive project documentation."
+    ],
+    duration: "6 months",
     languages: ["Java", "Spring", "MySQL", "Maven", "Js", "React-bootstrap"],
     url: "https://github.com/MattiaRiola/ezgas",
   },
@@ -86,7 +147,13 @@ const projects = [
     purpose: "academic",
     img: "backup.png",
     teamSize: "2",
-    languages: ["C++"],
+    responsibilities: [
+      "Designed and implemented the application architecture.",
+      "Implemented the functionalities and logic.",
+      "Improved performances using multithread programming approach."
+    ],
+    duration: "3 months",
+    languages: ["C++","Multithreading", "Operating Systems"],
     url: "https://github.com/MattiaRiola/PDS-M1-Project",
   },
   {
@@ -96,7 +163,11 @@ const projects = [
     purpose: "academic",
     img: "todo-manager.png",
     teamSize: "3",
-    languages: ["Js", "Js Express", "React-bootstrap"],
+    responsibilities: [
+      "Implemented both FE and BE functionalities following given requirements."
+    ],
+    duration: "3 months",
+    languages: ["Js", "Node.js", "Express", "React-bootstrap"],
     url: "https://github.com/MattiaRiola/wa1_todo_dynamic",
   },
   {
@@ -106,7 +177,11 @@ const projects = [
     purpose: "academic",
     img: "survey.gif",
     teamSize: "1",
-    languages: ["Js", "Js Express", "React-bootstrap"],
+    responsibilities: [
+      "Implemented both FE and BE functionalities following given requirements."
+    ],
+    duration: "5 days",
+    languages: ["Js", "Node.js","Express", "React-bootstrap"],
     url: "https://github.com/MattiaRiola/WA1_exam_survey",
   },
   {
@@ -116,6 +191,14 @@ const projects = [
     purpose: "academic",
     img: "analytics.png",
     teamSize: "3",
+    responsibilities: [
+      "Analyzed the business information system of a pizzeria.",
+      "Identified the main problems and possible improvements.",
+      "Designed a new information system for the pizzeria.",
+      "Evaluated the economic impact of the new information system.",
+      "Wrote a report about the analysis and the new information system."
+    ],
+    duration: "1 month",
     languages: ["Business Analysis"],
     url: "https://github.com/MattiaRiola/is-pizzeria-project",
   },
@@ -126,6 +209,11 @@ const projects = [
     purpose: "academic",
     img: "ASELabyrinth.gif",
     teamSize: "3",
+    responsibilities: [
+      "Implemented the game logic.",
+      "Developed the firmware for the board."
+    ],
+    duration: "6 month",
     languages: ["C", "ARM"],
   },
   {
@@ -135,6 +223,10 @@ const projects = [
     purpose: "hobby",
     img: "wimshurst-machine.png",
     teamSize: "1",
+    responsibilities: [
+      "Designed and built the machine."
+    ],
+    duration: "2 month",
     languages: ["Physics"],
   },
   {
@@ -144,8 +236,14 @@ const projects = [
     purpose: "academic",
     img: "speaker.png",
     teamSize: "1",
+    responsibilities: [
+      "Dimensioned the components.",
+      "soldered the components on the PCB.",
+      "Built the box with the amplifier and the speaker.",
+    ],
+    duration: "1 month",
     languages: ["Electronics"],
   },
 ];
 
-  export default projects;
+export default projects;

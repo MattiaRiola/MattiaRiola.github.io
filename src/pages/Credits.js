@@ -9,14 +9,14 @@ function Credits() {
   return (
     <Container>
       {
-        credits.map(credit =>
-          <Row className='m-3'>
-            <Col className='mx-auto m-1'>
-              <CreditCard credit={credit} key={"card" + credit.icon}>
-              </CreditCard>
-            </Col>
-          </Row>
-        )
+        credits.map((credit, index) =>
+            <Row className='m-3' key={"card" + credit.icon}>
+              <Col className='mx-auto m-1'>
+                <CreditCard credit={credit}>
+                </CreditCard>
+              </Col>
+            </Row>
+          )
       }
     </Container>
   )

@@ -36,6 +36,15 @@ function ExperienceCard(props) {
           <Row>
             <Col>
               <p className="vertical-timeline-element-description">{experience.description}</p>
+              {experience.responsibilities && Array.isArray(experience.responsibilities) && (
+                <details><summary>📋 Responsibilities</summary>
+                  <ul>
+                    {experience.responsibilities.map((responsibility, index) => (
+                      <li key={index}>{responsibility}</li>
+                    ))}
+                  </ul>
+                </details>
+              )}
             </Col>
           </Row>
         </Container>
