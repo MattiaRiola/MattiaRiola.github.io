@@ -42,7 +42,7 @@ const experiences = [
     description: "Studied basic electronic components and telecommunication systems.",
     location: "Rome, Italy",
     iconType: "school",
-    grade: "96/110",
+    grade: "96/100",
     experienceImg: "open-book.gif",
   },
   {
