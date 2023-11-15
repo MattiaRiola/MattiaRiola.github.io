@@ -2,7 +2,7 @@ const experiences = [
   {
     title: "Software Developer",
     company: "AizoOn",
-    date: "10/2020 - Present",
+    date: "10/2020 - 11/2023",
     description: "Focused on Backend development, plus some DevOps activities.",
     responsibilities: [
       "Backend development in Java (Spring Framework) and Golang using concurrent programming and databases (MongoDB and MySQL)",
