@@ -31,6 +31,10 @@ const rawHTMLFromMyGithubPageSmall = `
     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/>
     <figcaption  style='color: black' align="center">python</figcaption>
   </a>
+  <a align="center" style='margin-left:1em' href="https://nodejs.org/en" target="_blank" rel="external" style="margin-left: 20px"> 
+    <img src="https://nodejs.org/static/images/logo.svg" alt="nodeJs" width="40" height="40"/>
+    <figcaption  style='color: black' align="center">NodeJs</figcaption>
+  </a>
 </div>
 
 </details>
