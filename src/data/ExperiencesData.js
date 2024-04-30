@@ -1,5 +1,19 @@
 const experiences = [
   {
+    title: "Software Engineer in Test",
+    company: "Reply",
+    date: "11/2023 - present",
+    description: "Focused on test automation, full stack development and DevOps activities using Azure cloud services.",
+    responsibilities: [
+      "Full stack development in Python (Flask) for the BE and React for the FE",
+      "Test automation (Appium, Selenium and Cucumber)",
+      "DevOps and system architect (Azure cloud services like ACR, ACI, AKS, ADO)",
+    ],
+    location: "Turin, Italy",
+    iconType: "work",
+    experienceImg: "coding.gif",
+  },
+  {
     title: "Software Developer",
     company: "AizoOn",
     date: "10/2020 - 11/2023",

@@ -73,6 +73,10 @@ const rawHTMLFromMyGithubPageSmall = `
         <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/spring/spring-original.svg" alt="spring" width="40" height="40"/>
         <figcaption style='color: black' align="center">spring</figcaption> 
         </a>
+        <a align="center" style='margin-left:1em; margin-bottom:1em' href="https://flask.palletsprojects.com/" target="_blank" rel="external"> 
+        <img src="https://icon.icepanel.io/Technology/png-shadow-512/Flask.png" alt="flask" width="40" height="40"/>
+        <figcaption style='color: black' align="center">flask</figcaption> 
+        </a>
         <a align="center" style='margin-left:1em; margin-bottom:1em' href="https://getbootstrap.com/" target="_blank" rel="external"> 
         <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-original.svg" alt="bootstrap" width="40" height="40"/>
         <figcaption style='color: black' align="center">bootstrap</figcaption> 
@@ -101,6 +105,9 @@ const rawHTMLFromMyGithubPageSmall = `
         <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/selenium/selenium-original.svg" alt="selenium" width="40" height="40"/>
         <figcaption style='color: black' align="center">selenium</figcaption> 
         </a>
+        <a align="center" style='margin-left:1em' href="https://appium.io/" target="_blank" rel="external"> 
+        <img src="https://appium.io/docs/en/latest/assets/images/appium-logo-white.png" alt="appium" width="40" height="40"/>
+        <figcaption style='color: black' align="center">appium</figcaption> 
         <a align="center" style='margin-left:1em; margin-bottom:1em' href="https://www.cypress.io/" target="_blank" rel="external"> 
         <img src="https://www.cypress.io/favicon.ico" alt="cypress" width="40" height="40"/>
         <figcaption style='color: black' align="center">cypress</figcaption> 
@@ -114,7 +121,7 @@ const rawHTMLFromMyGithubPageSmall = `
     <div style="display: flex; flex-wrap: wrap;">
         <a align="center" style='margin-left:1em; margin-bottom:1em' href="https://unity.com/" target="_blank" rel="external"> 
         <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/unity/unity-original.svg" alt="Unity" width="40" height="40"/>
-        <figcaption style='color: black' align="center">Unity</figcaption> 
+        <figcaption style='color: black' align="center">unity</figcaption> 
         </a> 
         <a align="center" style='margin-left:1em; margin-bottom:1em' href="https://kafka.apache.org/" target="_blank" rel="external"> 
         <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/apachekafka/apachekafka-original.svg" alt="kafka" width="40" height="40"/>
@@ -129,7 +136,7 @@ const rawHTMLFromMyGithubPageSmall = `
         <figcaption style='color: black' align="center">android</figcaption> 
         </a>
         <a align="center" style='margin-left:1em; margin-bottom:1em' href="https://gradle.org/" target="_blank" rel="external"> 
-        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/gradle/gradle-plain.svg" alt="gradle" width="40" height="40"/>
+        <img src="https://gradle.com/wp-content/themes/fuel/assets/img/branding/gradle-elephant-icon-dark-green.svg" alt="gradle" width="40" height="40"/>
         <figcaption style='color: black' align="center">gradle</figcaption> 
         </a>
         <a align="center" style='margin-left:1em; margin-bottom:1em' href="https://grafana.com/" target="_blank" rel="external"> 
@@ -139,7 +146,11 @@ const rawHTMLFromMyGithubPageSmall = `
         <a align="center" style='margin-left:1em; margin-bottom:1em' href="https://www.sonarsource.com/" target="_blank" rel="external"> 
         <img src="https://seeklogo.com/images/S/sonarcloud-logo-39208B5388-seeklogo.com.png" alt="sonar" width="40" height="40"/>
         <figcaption style='color: black' align="center">sonar</figcaption> 
-        </a> 
+        </a>
+        <a align="center" style='margin-left:1em; margin-bottom:1em' href="https://azure.microsoft.com/en-us/" target="_blank" rel="external"> 
+        <img src="https://upload.wikimedia.org/wikipedia/commons/f/fa/Microsoft_Azure.svg" alt="azure" width="40" height="40"/>
+        <figcaption style='color: black' align="center">azure</figcaption> 
+        </a>
     </div>
   </p>
 </details>

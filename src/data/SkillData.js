@@ -10,6 +10,14 @@ const skills = [
     ],
   },
   {
+    title: "Test applications",
+    description: "I have experience in testing web and mobile applications using the most common testing tools",
+    icon: "page-optimization.gif",
+    languages: ["Selenium", "Appium", "IV4XR", "Cucumber","JUnit", "Mockito", "Tesseract", "Cypress"],
+    projects: [
+      ],
+  },
+  {
     title: "Write Backend Systems",
     description: "I have experience in developing monolithic servers and microservices using Java/Kotlin + Spring Framework and Golang",
     icon: "server.gif",
