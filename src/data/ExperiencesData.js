@@ -23,7 +23,7 @@ const experiences = [
     ],
     location: "Turin, Italy",
     iconType: "work",
-    experienceImg: "coding.gif",
+    experienceImg: "quiz.gif",
   },
   {
     title: "Software Developer",
