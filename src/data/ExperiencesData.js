@@ -1,8 +1,20 @@
 const experiences = [
   {
+    title: "Software Developer",
+    company: "Team System",
+    date: "09/2024 - present",
+    description: "Focused on Backend development.",
+    responsibilities: [
+      "Backend development in Kotlin and Java (Spring and Quarkus)",
+    ],
+    location: "Turin, Italy",
+    iconType: "work",
+    experienceImg: "coding.gif",
+  },
+  {
     title: "Software Engineer in Test",
     company: "Reply",
-    date: "11/2023 - present",
+    date: "11/2023 - 09/2024",
     description: "Focused on test automation, full stack development and DevOps activities using Azure cloud services.",
     responsibilities: [
       "Full stack development in Python (Flask) for the BE and React for the FE",
